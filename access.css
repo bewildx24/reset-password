@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 600px;
+    background-color: #E9EBEE;
+}
+
+.header {
+    background-color: #4867A8;
+}
+
+.header img {
+    width: 200px;
+    margin: 20px 0 0 60px;
+}
+.header .form {
+    float: right;
+}
+
+.header .TK {
+    position: absolute;
+    top: 50px;
+    right: 16rem;
+    transform: translate(-50%, -50%);
+    border: none;
+    height: 20px;
+    outline: none;
+    padding-left: 2px;
+}
+
+.header .MK {
+    position: absolute;
+    top: 50px;
+    right: 5rem;
+    transform: translate(-50%, -50%);
+    border: none;
+    height: 20px;
+    outline: none;
+    padding-left: 2px;
+}
+
+.header .email {
+    position: absolute;
+    top: 28px;
+    right: 23.8rem;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .pass {
+    position: absolute;
+    top: 28px;
+    right: 15.4rem;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .forgot {
+    position: absolute;
+    top: 70px;
+    right: 11.4rem;
+    transform: translate(-50%, -50%);
+    color: #98afe0;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+.header .forgot:hover {
+    text-decoration: underline;
+}
+
+.header button {
+    position: absolute;
+    top: 50px;
+    right: 4rem;
+    transform: translate(-50%, -50%);
+    border: none;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    height: 22px;
+    padding: 0 10px;
+    background-color: #4870bb;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header button:hover {
+    background-color: #365899;
+}
+
+.content {
+    height: 550px;
+}
+
+.box {
+    width: 560px;
+    height: 260px;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.box h3 {
+    margin: 20px 0 10px 20px;
+    font-size: 16px;
+}
+
+.box hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 0 20px;
+}
+
+.box .des {
+    font-size: 12px;
+    margin: 20px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.user {
+    margin-top: 10px;
+}
+.user .textimg {
+    float: right;
+    margin: 10px 120px 0 0;
+}
+
+.textimg p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.textimg span {
+    font-size: 11px;
+    color: #918f8f;
+}
+
+.mail-address {
+    height: 60px;
+    width: 260px;
+    background-color: #F5F6F7;
+}
+
+.mail-address img {
+    width: 16px;
+}
+
+.mail-address .text-mail {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    padding: 10px 0 5px 120px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.mail-address p {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.button {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #F2F2F2;
+    line-height: 35px;
+}
+
+.button .enter-pass {
+    margin-left: 170px;
+    border: none;
+    background-color: #4a75c6;
+    border-radius: 2px;
+    height: 25px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+}
+
+.button .enter-pass:hover {
+    background-color: #365899;
+}
+
+.button .cannot {
+    margin-left: 4px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 25px;
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.button .cannot:hover {
+    opacity: 1;
+    background-color: #ccc;
+}
+
+.footer {
+    width: 90%;
+    margin-left: 80px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #4867A8;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer span {
+    font-size: 11px;
+    color: #969494;
+    padding-bottom: 20px;
+}
+
+.footer .first {
+    margin-left: 0;
+}
